@@ -21,7 +21,7 @@ Source code for [SUMM^N: A Multi-Stage Summarization Framework for Long InputDia
 
 ## Training and Evaluation
 
-### Download the Datasets and models
+### Download the Datasets and Models
 - Download link for AMI & ICSI can be found at https://github.com/microsoft/HMNet
 - Download QMSum dataset from https://github.com/Yale-LILY/QMSum
 - Download SummScreen (both MG and TMS) from https://github.com/mingdachen/SummScreen
@@ -38,7 +38,7 @@ wget -N 'https://dl.fbaipublicfiles.com/fairseq/gpt2_bpe/dict.txt'
 ```
 - Setup the ROUGE155 following https://github.com/chatc/AnyROUGE
 
-### Training the model
+### Training the Model
 - After we setup the datasets, setup the paths of scripts at `scripts/{dataset name}.sh`
 - Train the model by the command: `bash scripts/{dataset name}.sh`
 
@@ -58,8 +58,8 @@ python run.py --cfg ICSI.cfg \
 ```
 And run this script to do the evaluation on test set only.
 
-## Add a new task into $Summ^N$
-It is easy to add new task/dataset into $Summ^N$.
+## Add a New Task
+It is easy to add new task/dataset into Summ-N.
 - First, add the configuration file in `configure` directory, one can write the cfg file following other files, e.g. `configure/ICSI.cfg` is a 3 stage config
 - Then write the dataset loader and add it to `dataset_loader` directory. `dataset_loader/ICSI.py` can be a good example
 - Finally, add the running parameters into `scripts`, following e.g. `scripts/run_ICSI.sh`
