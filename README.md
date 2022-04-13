@@ -70,7 +70,7 @@ It is easy to add new task/dataset into Summ-N.
 @article{zhang2021summ,
   title={Summ\^{} N: A Multi-Stage Summarization Framework for Long Input Dialogues and Documents},
   author={Zhang, Yusen and Ni, Ansong and Mao, Ziming and Wu, Chen Henry and Zhu, Chenguang and Deb, Budhaditya and Awadallah, Ahmed H and Radev, Dragomir and Zhang, Rui},
-  journal={arXiv preprint arXiv:2110.10150},
-  year={2021}
+  journal={ACL 2022},
+  year={2022}
 }
 ```
