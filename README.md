@@ -1,5 +1,5 @@
 # SummN
-Source code for [SUMM^N: A Multi-Stage Summarization Framework for Long InputDialogues and Documents](https://arxiv.org/pdf/2110.10150.pdf)
+Source code for ACL 2022 paper [SUMM^N: A Multi-Stage Summarization Framework for Long InputDialogues and Documents](https://arxiv.org/pdf/2110.10150.pdf)
 
 ## Dependency
 
@@ -66,11 +66,11 @@ It is easy to add new task/dataset into Summ-N.
 - Run the training or evaluation by `bash scripts/{Your Dataset}.sh`
 
 ## Citation
-```
-@article{zhang2021summ,
+```bibtex
+@inproceedings{zhang2021summn,
   title={Summ\^{} N: A Multi-Stage Summarization Framework for Long Input Dialogues and Documents},
   author={Zhang, Yusen and Ni, Ansong and Mao, Ziming and Wu, Chen Henry and Zhu, Chenguang and Deb, Budhaditya and Awadallah, Ahmed H and Radev, Dragomir and Zhang, Rui},
-  journal={ACL 2022},
+  booktitle={ACL 2022},
   year={2022}
 }
-```
+``` 
