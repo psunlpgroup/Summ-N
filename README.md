@@ -1,6 +1,8 @@
 # SummN
 Source code for ACL 2022 paper [SUMM^N: A Multi-Stage Summarization Framework for Long InputDialogues and Documents](https://arxiv.org/pdf/2110.10150.pdf)
 
+## Update
+- Release some of the prediction files (*.hypo one sample each line) together with the checkpoints. Google Drive [Link].(https://drive.google.com/drive/folders/1_2ULrbeQcYN3It99QnqUcWAlU-zu-ceP?usp=sharing)
 ## Dependency
 
 - Install Fairseq according to their official instructions https://github.com/pytorch/fairseq
@@ -43,7 +45,7 @@ wget -N 'https://dl.fbaipublicfiles.com/fairseq/gpt2_bpe/dict.txt'
 - Train the model by the command: `bash scripts/{dataset name}.sh`
 
 ### Evaluation
-- First download the checkpoint from [Google Drive](https://drive.google.com/drive/folders/1pt_hsyKsBwL5l-iIwsz1ijvxV8v6fc1O?usp=sharing)
+- First download the checkpoint from [Google Drive](https://drive.google.com/drive/folders/1_2ULrbeQcYN3It99QnqUcWAlU-zu-ceP?usp=sharing)
 - Then, setup the paths of scripts at `scripts/{dataset name}.sh`
 - Finally, specify the mode and checkpoint_dir in the running scripts. For instance,
 ```shell
